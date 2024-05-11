@@ -1,0 +1,16 @@
+<% if (Error != "") { %>
+    <% const errors = Error.split(",") %>
+    <% errors.forEach((item) => { %>
+      <script>openlofinModal(escape(item))</script>
+      <div class="alerf alerf-danger"><%- escape(item) %></div>
+    <% }); %>
+  <% } %>
+  
+  <% if (Success != "") { %>
+    <% const successes = Success.split(",") %>
+    <% successes.forEach((item) => { %>
+      <script>openregisterModal(escape(item))</script>
+      <div class="alerf alerf-danger"><%- escape(item) %></div>
+    <% }); %>
+  <% } %>
+

@@ -1,0 +1,42 @@
+{
+  "name": "web_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bang241002/mongodbnodejs.git"
+  },
+  "author": "Dinh Cong Bang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bang241002/mongodbnodejs/issues"
+  },
+  "homepage": "https://github.com/Bang241002/mongodbnodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.2",
+    "connect": "^3.7.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-extend": "^0.0.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.4.3",
+    "nodemailer": "^6.9.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
